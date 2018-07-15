@@ -1,238 +1,237 @@
-# Entanglion Rule Book
+# エンタングリオン ルールブック
 
 > A game by IBM Research
 
-**2 PLAYERS | AGES 14 & UP | ~45 MINUTES**
+**2人用 | 対象年齢 14歳以上 | 所要時間 〜45分**
 
-Entanglion awaits your space navigation skills and strategic planning to explore a new galaxy and reconstruct an ancient quantum computer.
+新しい銀河を探索し、古代量子コンピューターを再構築しよう<br />
+エンタングリオンは君の航法技術と戦略を待っている!
 
 http://ibm.biz/entanglion
 
-> 🤔 Confused about a rule? Please take a look at the [errata](Errata.md) for rule clarifications and game updates.
+> 🤔 ゲームのルールに疑問を感じた場合は [修正情報](Errata.md) を参照し、ルールの追加説明やゲームの更新がないかを確認してください。
 
-# Welcome to the quantum universe, Captain!
+# 量子宇宙へようこそ、船長!
 
 <img src="../images/bg.png" width="100%">
 
-Congratulations, your captain has retired and left you in charge of his galactic shipping business! Now it's time to make some upgrades.
+おめでとう。老船長は引退し、君が銀河輸送ビジネスの任にあたることになった! そろそろビジネスを少し変革してもいい頃合いだろう。
 
-For years, you've been obsessed with rumors of an ancient quantum computing technology that could revolutionize galactic cargo transport. If the rumors were true, it would allow your ships to calculate hyperspace paths in mere seconds! There's only one problem: the ancients dismantled their quantum computer out of fears that it was too powerful, and they left the components scattered across planets in the heavily-guarded Entanglion galaxy.
+何年もの間、知っての通り世間は銀河コンテナ輸送を劇的に変える、古代量子コンピューター技術の噂でもちきりだった。噂が本当なら、その技術は宇宙船のハイパースペース航路を秒単位で計算するらしい! だが問題が1つ。古代人は量子コンピューターがあまりに強力だったことに恐れをなし、部品単位でバラバラにして、強力に防御されたエンタングリオン銀河内の星々に撒き散らしたのだ。
 
-If you want to rebuild this incredible technology, you'll have to navigate your ships through the Entanglion galaxy and out-maneuver the defenses the ancients left behind. The good news is that your old captain left you enough money to outfit your ships with the quantum-powered engines you'll need to enter Entanglion. The bad news is that without a quantum computer to guide them, these engines can be a little… unpredictable.
+この驚異の技術を再構築するには、宇宙船でエンタングリオン銀河内を経巡り、古代人が仕掛けていった防御を回避しなければならない。ここで君にいい知らせと悪い知らせがある。まず、いい知らせだが、老船長は君に、宇宙船がエンタングリオンへ突入する際に必要な量子エンジンを装備するだけの十分な金を残していったよ。で、悪い知らせだが、量子エンジンというものは量子コンピューターのガイドなしでは、少しばかり ... そう、予期しない動きをするんだ。
 
-Think you're up for the challenge?
+さぁ、挑戦するかい?
 
-# Goal
-Entanglion is a cooperative board game designed for two players. The goal is to reconstruct a quantum computer developed by an ancient race. Work together with your teammate to navigate the three galaxies of the quantum universe – Centarious, Superious, and Entanglion – in a quest to collect eight quantum computer components. Be careful to avoid detection by the planetary defense mechanisms guarding the components!
+# ゲームのゴール
+エンタングリオンは、2人プレイ用の協調型ボードゲームです。古代人が開発した量子コンピューターの再構築が最終的なゴールです。2人で協力して、量子宇宙の 3つの銀河 (センタリウス、スーペリウス、エンタングリオン) を航行し、8つの量子コンピューター部品を集めてください。部品を守っている惑星防御メカニズムからの索敵に注意してください。
 
-# Game concepts
-Entanglion was designed to expose players to several fundamental concepts in quantum computing: 
+# ゲームのコンセプト
+エンタングリオンは、以下のような量子コンピューターの基本的な概念を体験するためにデザインされました。 
 
-- **Qubits** are the building blocks of quantum computation.
-- **Superposition** is when a quantum system may exist in a probabilistic combination of multiple states at once.
-- **Entanglement** happens when the state of one qubit correlates with the state of another qubit.
-- **Measurement** is the process of observing the classical value of a qubit.
-- **Error** happens when random noise in the quantum system perturbs the measured value of a qubit.
+- **量子ビット (Qubits)**: 量子計算におけるビルディングブロックです。
+- **重ね合わせ (Superposition)**: 量子システムは一度に複数の状態の確率的組み合わせに存在するかもしれません。
+- **エンタングルメント (Entanglement)**: 一つの量子ビットが他の量子ビットの状態と関連を持ったときに起こります。
+- **測定 (Measurement)**: 量子ビットの古典的な値を観察するプロセスです。
+- **エラー (Error)**: 量子システム内のランダムノイズが量子ビットの測定値を混乱させるときに起こります。
 
-Entanglion also exposes players to the different kinds of hardware and software components involved in building a real quantum computer.
+このゲームではまた、実際の量子コンピューターを構築する際に必要なハードウェアやソフトウェアも取り上げています。
 
-Further discussion of how Entanglion relates to actual quantum computing can be found toward the end of this book.
+エンタングリオンが実際の量子コンピューターとどのように関連しているかの詳細については本書の後半を参照してください。
 
-# Game setup
-1. **Lay out the game & spaceship boards**. Place the game board within easy reach from 
-each player and distribute the spaceship boards to each player.
-2. **Place the quantum components**. Shuffle the quantum components and place them face up on each planet in the Entanglion galaxy, one per planet.
-3. **Shuffle the engine card stack**. Set aside the PROBE card and shuffle the remaining engine cards. Place the PROBE card face down on the engine stack, then place the remaining engine cards on top, face down.
-4. **Prepare the quantum event deck**. Set aside the Quantum Shuffle card and shuffle the remaining event cards. Deal out three event cards face down on the quantum event deck. Next, place the Quantum Shuffle card face down on the deck. Finally, place the remaining event cards face down on the deck.
-5. **Set the initial detection rate**. Place the detection rate token on the detection rate scale. For an easy game, start with a detection rate of 1 or 2. For a more challenging game, start with a detection rate of 3. If the detection rate reaches the final level (X) before the quantum computer has been built, the game ends in a loss.
-6. **Determine the first player**. Determine the first player by having each player 
-roll the Entanglion die (8-sided). The player with the higher number goes first. Re-roll in case of a tie.
-7. **Determine the initial ship locations**. Starting with the first player, roll the Centarious die to place each spaceship (0 goes to <span style="color: purple"> ZERO </span>, 1 goes to <span style="color: purple"> ONE </span>). This process is akin to initializing a quantum system.
-8. **Draw engine cards**. Starting with the first player, each player draws three engine cards into their hand. Engine cards may be kept face up.
+# ゲームの準備
+1. **「ゲーム盤」と「宇宙船ボード」を置きます。** 2人の中央に「ゲーム盤」を置き、それぞれの前に「宇宙船ボード」を置きます。
+2. **「量子部品」を置きます。** 「量子部品」をシャッフルして、エンタングリオン銀河内の各惑星ごとに1つずつ、表を上にして置きます。
+3. **「エンジンカード」をシャッフルします。** 「PROBE」カードを取り除き、残りの「エンジンカード」をシャッフルします。エンジンスタックの上に、まず「PROBE」カードを裏にして置き、次に残りのシャッフルした「エンジンカード」を裏にして置きます。
+4. **「量子イベント」を準備します。** 「量子シャッフル」カードを取り除き、残りの「量子イベントカード」をシャッフルします。シャッフルした「量子イベントカード」から3枚のイベントカードを取り出し、裏返しにして量子イベントデッキに置きます。次に「量子シャッフル」カードを裏にして置き、最後に残りの「量子イベントカード」を裏にして置きます。
+5. **「検出レート」の初期値を設定します。** 検出レートスケールの上に「検出レートトークン」を置きます。ゲームを簡単にするには、検出レート 1 または 2 から始めてください。3 にすると少し難しくなります。量子コンピューターを構築する前に「検出レート」が最終レベル(X)まで達すると、ゲームはプレイヤー側の負けとなります。
+6. **最初のプレイヤーを決めます。** お互いにエンタングリオンサイコロ (8面) を振って最初のプレイヤーを決めます。数の大きい方が先にプレイします。引き分けの場合は振り直してください。
+7. **最初の船の位置を決めます。** 最初のプレイヤーから、センタリウスサイコロを振ってそれぞれの船の位置を決めます (0なら<span style="color: purple"> ZERO </span>へ、1なら<span style="color: purple"> ONE </span>へ)。このプロセスは量子システムの初期化に相当します。
+8. **「エンジンカード」を引きます。**. 最初のプレイヤーから二人共、エンジンカードを 3枚引き、表にして置きます。
 
 <img src="../images/setup.png" width="100%">
 
-# Materials
+# ゲームの内容物
 
-**Boards**
-- 1 game board
-- 2 spaceship boards
+**ボード**
+- ゲームボード x 1
+- 宇宙船ボード x 2
 <img src="../images/board.png" width="40%">
 
-**Cards**
-- 24 engine cards (8 H, 7 CNOT, 5 X, 3 SWAP, 1 PROBE)
+**カード**
+- エンジンカード x 24 (H x 8, CNOT x 7, X x 5, SWAP x 3, PROBE x 1)
 <img src="../images/engine_cards.png" width="40%">
 
-- 9 event cards
+- イベントカード x 9
 <img src="../images/events.png" width="100%">
 
-**Pieces**
-- 1 detection rate token
-- 8 quantum components
+**その他**
+- 検出レートトークン x 1
+- 量子部品 x 8
 <img src="../images/quantum_components.png" width="100%">
 
-- 1 Centarious die (purple binary d6)
-- 1 Entanglion die (yellow d8)
-- 2 spaceship tokens
+- センタリウスサイコロ x 1 (紫色の 0 または 1 の 6面)
+- エンタングリオンサイコロ x 1 (黄色の 8面)
+- 宇宙船トークン x 2
 <img src="../images/spaceship.png" width="20%">
 
-**Rule Book**
+**ルールブック**
 
-# Engine cards
+# エンジンカード
 <img src="../images/engine_cards.png" width="60%">
 
-Engine cards are used to navigate your ships around the quantum universe. Navigation paths on the game board are labeled with the card(s) needed to traverse them (e.g. “X/CNOT” means either X or CNOT can be used to traverse that path). In some cases, only one spaceship may traverse a path. Engine cards may be played with no effect when no transition is shown on the board.
+「エンジンカード」を使用して量子宇宙空間内を航行できます。ゲーム盤上に描かれた航路には、宇宙船の航行に必要なカードの種類が書かれています。例えば、「X/CNOT」であれば、「X」カードまたは「CNOT」カードで航行できます。ある場面においては、1機の宇宙船のみが航路を横断できます。ゲーム盤上に航路がない場面でもエンジンカードは使用できますが、この場合には何も起こりません。
 
-**X**. X is used to navigate between <span style="color: purple"> ZERO </span> and <span style="color: purple"> ONE </span> and within the Entanglion galaxy.
+**X**: 「X」カードは <span style="color: purple"> ZERO </span> と <span style="color: purple"> ONE </span> 間の航行、および、エンタングリオン銀河内の航行に使用されます。
 
-**H**. H is used to travel between Centarious and Superious and within the Entanglion galaxy.
+**H**: 「H」カードはセンタリウスとスーペリウス間の航行、および、エンタングリオン銀河内の航行に使用されます。
 
-**SWAP**. Outside of Entanglion, SWAP exchanges the positions of the two spaceships. Inside Entanglion, SWAP only transitions the spaceships between <span style="color: #facd4d"> OMEGA ZERO </span> and <span style="color: #facd4d"> OMEGA THREE </span>.
+**SWAP**: 「SWAP」カードは、エンタングリオンの外側であれば、2機の宇宙船の位置を入れ換えます。エンタングリオンの内側であれば、<span style="color: #facd4d"> OMEGA ZERO </span> と <span style="color: #facd4d"> OMEGA THREE </span> との間でのみ宇宙船を移動します。
 
-**CNOT**. CNOT is used to enter the Entanglion galaxy and navigate within it. It also flips the position of your spaceship in Centarious, but only when the other spaceship is orbiting <span style="color: purple"> ONE </span>.
+**CNOT**: 「CNOT」カードを使用すると、エンタングリオン銀河に入り、銀河内を航行できます。また、宇宙船がセンタリウスにいる場合には、相手の船が<span style="color: purple"> ONE </span>の位置にいる場合にのみ、宇宙船の位置を入れ換えられます。
 
-**PROBE**. Whenever PROBE is drawn, your ships have been discovered by an ancient defensive probe! Roll the Entanglion die. If the outcome is less than 4 (after accounting for quantum component effects), increase the detection rate by one. Otherwise, PROBE has no effect. Discard PROBE and draw a replacement engine card.
+**PROBE**: 「PROBE」カードを引いたら、... 宇宙船が古代人の防御索敵システムに見つかった! エンタングリオンサイコロを振ってください。出た目が 4 より小さければ、(量子部品の効果を考慮した後) 検出レートを 1 上げてください。4 以上であれば、何もしません。「PROBE」カードを捨て、代わりのエンジンカードを引いてください。
 
-> Orient engine cards in the engine control spaces such that the lines on the card line up with the line of your spaceship.
+> エンジンコントロールスペースでは、自分の宇宙船の線とエンジンカード上の線が揃うようにカードの向きを合わせてください。
 
-> When the engine stack becomes depleted, immediately reshuffle the engine cards in the discard pile to replenish the engine stack. Include PROBE in the shuffle, do not place it at the bottom of the stack.
+> エンジンカードがなくなったら、捨てたエンジンカードをシャッフルして元のスタックに置いてください。このとき「PROBE」カードも混ぜてください。カードの山の一番下に置く必要はありません。
 
-# Turn overview
-Perform _one_ of the following actions on your turn.
+# ゲームの進行
+順番が来たら、次の _どれか 1つ_ を実行してください。
 
-1. **Navigate**. Play one engine card in engine control to navigate around the galaxy, and draw a replacement. You may only play engine cards for your own ship.
-2. **Exchange**. Discard one engine card from your hand and draw a replacement..
-3. **Retrieve**. Roll the Entanglion die to attempt to retrieve a quantum component if one is present.
-4. **Event**. Play an event card from your hand (if you possess one).
+1. **航行**: エンジンコントロールスペースに「エンジンカード」を 1枚置き、銀河内を航行し、1枚「エンジンカード」を引いてください。エンジンカードは自分の宇宙船に対してのみ使用できます。
+2. **交換**: 手持ちの「エンジンカード」を 1枚捨てて、代わりを引きます。
+3. **取得**: もし「量子部品」」があれば、エンタングリオンサイコロを振り、条件により取得できます。
+4. **イベント**: 手持ちのイベントカードを実行します (手元にある場合)
 
-> Players may not pass their turns, they must perform one of the actions above.
+> パスはできません。必ず上のアクションのどれかを実行してください。
 
-# Entering & exiting Entanglion
-In order to enter Entanglion, one spaceship needs to be in Centarious and the other spaceship needs to be in Superious. Only the spaceship in Centarious can use CNOT to enter Entanglion. The paths into Entanglion are represented with gray lines on the game board.
+# エンタングリオンに入る & 出る
+エンタングリオンに入るには、片方の宇宙船がセンタリウスに、もう片方がスーペリウスにいる必要があります。センタリウスにいる宇宙船のみが、エンタングリオンに入るための「CNOT」カードを使用できます。エンタングリオンへの航路は、ゲーム盤上に灰色の線で示されています。
 
-Lead spaceship (playing the CNOT) | Other spaceship | Destination
+宇宙船 (「CNOT」する側) | 別の宇宙船 | 目的地
 --- | --- | ---
 <span style="color: purple"> ZERO </span> | <span style="color: green"> PLUS </span> | <span style="color: #facd4d"> PHI PLUS </span>
 <span style="color: purple"> ZERO </span> | <span style="color: green"> MINUS </span> | <span style="color: #facd4d"> PHI MINUS </span>
 <span style="color: purple"> ONE </span> | <span style="color: green"> PLUS </span> | <span style="color: #facd4d"> PSI PLUS </span>
 <span style="color: purple"> ONE </span> | <span style="color: green"> MINUS </span> | <span style="color: #facd4d"> PSI MINUS </span>
 
-It is also possible to exit Entanglion using CNOT when both ships are orbiting <span style="color: #facd4d"> PHI PLUS </span>, <span style="color: #facd4d"> PHI MINUS </span>, <span style="color: #facd4d"> PSI PLUS </span>, or <span style="color: #facd4d"> PSI MINUS </span>. The ship that plays the CNOT returns to Centarious and the other ship returns to Superious, on the planets indicated with the gray lines.
+両方の船が<span style="color: #facd4d"> PHI PLUS </span>、<span style="color: #facd4d"> PHI MINUS </span>、<span style="color: #facd4d"> PSI PLUS </span>、<span style="color: #facd4d"> PSI MINUS </span>にいる場合、「CNOT」カードを使用してエンタングリオンから出ることができます。「CNOT」カードを使ったプレイヤー側の宇宙船はセンタリウスの、もう片方のプレイヤー側の宇宙船はスーペリウスの、灰色の線で示されるそれぞれの惑星に戻ります。
 
-Example: Rubicon is orbiting <span style="color: purple"> ZERO </span> and Mercurial is orbiting <span style="color: green"> PLUS </span>. When Rubicon plays a CNOT, both ships move to <span style="color: #facd4d"> PHI PLUS </span>.
+例：ルビコンが<span style="color: purple"> ZERO </span>、マーキュリアルが<span style="color: green"> PLUS </span>にいるとします。このときルビコンが「CNOT」を実行すると、両方の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動します。
 
-> Outside of Entanglion, ships move independently. Inside Entanglion, both ships always move together, irregardless of which player plays an engine card.
+> エンタングリオンの外では、船は独立して動きます。エンタングリオンの中では、どちらのプレイヤーが「エンジンカード」を実行しても船は常に一緒に動きます。
 
 <img src="../images/entering_entanglion.png" width="40%">
 
-On <span style="color: #facd4d"> PHI PLUS </span>, when Rubicon plays CNOT, Rubicon moves to <span style="color: purple"> ZERO </span> and Mercurial moves to <span style="color: green"> PLUS </span>.
+<span style="color: #facd4d"> PHI PLUS </span>上で、ルビコン側が「CNOT」カードを実行すると、ルビコンは<span style="color: purple"> ZERO </span>に移動し、マーキュリアルは<span style="color: green"> PLUS </span>に移動します。
 
 <img src="../images/entering_entanglion2.png" width="40%">
 
-# Detection rate
-The detection rate determines the difficulty of successfully evading planetary defenses. The detection rate token is used to keep track of the current detection rate. When a player’s spaceship has been detected by orbital defenses, or a player’s away team has been detected by ground defenses, the detection rate is increased, making it easier for each planet’s defenses 
-to detect the player in the future. The game ends when the detection rate reaches the final level (designated with an X).
+# 検出レート
+「検出レート」は、惑星防御システムの難易度を決定します。「検出レートトークン」は現在の「検出レート」のトラックに使用されます。プレイヤーの宇宙船が軌道防御システムに見つかるか、または相手プレイヤーが地上防御システムに見つかると「検出レート」は上がり、その後の各惑星に配置された防御システムがプレイヤーを発見しやすくなります。「検出レート」が最終レベル (X) に達すると、ゲームは終了します。
 
-> The detection rate increases by one whenever you are detected by a planet's orbital or ground defenses.
+> 惑星の軌道防御システム、または地上防御システムに見つかると検出レートは常に 1 増加します。
 
 <img src="../images/detection_rate.png" width="40%">
 
-# Orbital defenses
-Planets in Entanglion are protected by orbital defenses that scan for ships looking to plunder the quantum components hidden there. It is possible to evade these defenses using your quantum engines. If you are detected, however, your navigation system will automatically take evasive maneuvers and jump to a random planet in the Centarious system. This jump triggers a quantum event.
+# 軌道防御システム
+エンタングリオンの惑星は軌道防御システムによって守られており、隠された量子部品を略奪しようとする宇宙船を走査します。量子エンジンを使用して走査の目をかいくぐることができますが、失敗して見つかった場合には船の航行システムが自動的に回避行動を取り、センタリウス系のランダムな惑星にジャンプします。このジャンプは量子イベントを引き起こします。
 
-**When you navigate to any planet in Entanglion:** Roll the Entanglion die. If the outcome is greater than the current detection rate, the orbital defenses have been evaded. If not, perform the following actions:
+**エンタングリオン内の惑星を航行している場合:** エンタングリオンサイコロを振ってください。出た目が現在の「検出レート」より大きければ、惑星の防御システムを回避したことになります。出た目が「検出レート」以下なら、次のステップを実行してください。
 
-1. Roll the Centarious die and move both ships to the planet indicated. Both ships jump together.
-2. Increase the detection rate by one.
-3. Draw a quantum event card and perform the action indicated.
+1. センタリウスサイコロを振り、両方の宇宙船を示された惑星に移動します。両方一緒にジャンプします。
+2. 「検出レート」を 1 増やします。
+3. 「量子イベントカード」を引き、カードの指示に従います。
 
-> Physical Qubits lets you decide which planets in Centarious to place your spaceships.
+> 「物理量子ビット」部品を使用すると、センタリウス内の移動先の惑星を決定できます。
 
-> Quantum Programming lets you bypass orbital defenses when a planet doesn't have a quantum component.
+> 「量子プログラミング」部品を使用すると、惑星に量子部品がない場合、軌道防御システムを回避できます。
 
-> The Quantum Tunnel event card lets you bypass orbital defenses. If you play this card after entering the orbit of a planet in Entanglion, you do not need to roll the Entanglion die to determine if your ships were detected by orbital defenses.
+> 「量子トンネル」イベントカードを使用すると、軌道防御システムを回避できます。エンタングリオン内の惑星軌道上でこのイベントカードを実行すると、軌道防御システムが船を見つけたかどうか確認するためにエンタングリオンサイコロを降る必要はありません。
 
-> When entering Entanglion via the Heisenberg card, you may ignore the orbital defenses.
+> 「ハイゼンベルク」イベントカードを使用してエンタングリオンに入ると、軌道防御システムを無視できます。
 
-> If you play an engine card that does not transition your ships to a new planet in Entanglion, you do not need to re-check whether your ships have been detected.
+> 「エンジンカード」を実行しても、エンタングリオン内の新しい惑星に移動しない場合、船が見つかったどうかをチェックをする必要はありません。
 
-# Quantum components
-There are eight components that players must obtain in order to build the quantum computer to win the game, shown on each of the spaceship boards. Each component also grants a permanent special ability or hindrance to your ship, so you must strategize with your teammate to obtain the components in an optimal order!
+# 量子部品
 
-> Quantum components are permanent upgrades to your ship and alter gameplay for the rest of the game.
+このゲームに勝利するには、「宇宙船ボード」に描かれた 8つの「量子部品」を集めて量子コンピューターを構築しなければなりません。「量子部品」はそれぞれ、宇宙船に無期限の特殊機能を備えるか、または、ダメージを与えるため、チームメイトと協力して最適な順番で、戦略的に「量子部品」を取得する必要があります。
+
+> 「量子部品」は船を無期限にアップグレードし、残りのゲームの流れを変えます。
 
 <img src="../images/quantum_components.png" width="100%">
 
-When your ships are orbiting a planet with a quantum component, you may send an away team to the planet’s surface to retrieve it. Quantum components are guarded by automated ground defenses which, as with orbital defenses, must be evaded.
+「量子部品」を持った船が惑星軌道上にある場合、別チームを惑星表面に下ろして「量子部品」を取得できます。「量子部品」は軌道防御システム同様、自動化された地上防御システムに守られており、これを回避しなければなりません。
 
-**To perform a retrieval mission:** Roll the Entanglion die. If the outcome is greater than the current detection rate, collect the component and place it on your spaceship board. If not, your away team was detected by the ground defenses; increase the detection rate by one.
+**取得ミッションを実行するには:** エンタングリオンサイコロを振ってください。出た目が現在の「検出レート」より大きければ、「量子部品」を回収でき、「宇宙船ボード」に置けます。出た目が「検出レート」以下ならば、別チームは地上防御システムに見つかったことになります。「検証レート」を 1つ増やしてください。
 
-> If your away team fails to retrieve a quantum component, your ships remain in orbit on the current planet. You do not need to perform another orbital defense check on the next turn unless you navigate to another planet that has orbital defenses
+> 別チームが「量子部品」を取得できなくても、宇宙船は現在の惑星軌道に留まります。また次の順番でも、別の惑星に航行し軌道制御システムに出会わない限り、軌道防御システムの確認を行う必要はありません。
 
-> The Quantum Tunnel event card lets you bypass ground defenses. If you play this card during your turn, your retrieval mission was successful. You do not need to roll the Entanglion die to determine if your away team was detected by ground defenses; add the quantum component to your ship
+> 「量子トンネル」イベントカードを使用すると、地上防御システムを回避できます。自分の順番でこのイベントカードを実行すれば、取得ミッションは成功です。別チームが地上防御システムに見つかったかどうかをの判定にエンタングリオンサイコロを振る必要ありません。自分の船に「量子部品」を積んでください。
 
-# Quantum events
-Quantum engines can be unpredictable at times! Once all six engine control slots have been filled, perform a quantum event at the end of your turn. In addition, perform a quantum event whenever you have been detected by orbital defenses.
+# 量子イベント
+量子エンジンは、時には予測できない動きをします! 6個のエンジンコントロールスロットがすべて埋まった場合、自分の番の最後で「量子イベント」を実行してください。また、軌道防御システムに見つかった場合も、「量子イベント」を実行してください。
 
-**To perform a quantum event:** Draw an event card and perform the instructions. Clear all engine cards from the game board and put them in engine discard pile.
+**「量子イベント」を実行する**: 「量子イベントカード」を引き、カードの指示に従ってください。ゲーム盤からすべての「エンジンカード」を取り除き、「エンジン廃棄パイル」に置いてください。
 
-> When Quantum Shuffle is drawn, reshuffle the quantum event cards as per the instructions in game setup.
+> 「量子シャッフル」イベントカードを引いた場合は、上の「ゲームの準備」の章の「「量子イベント」を準備します。」節の指示どおりに、「量子イベントカード」をシャッフルしてください。
 
-> In the event that your ship was detected by orbital defenses on the same turn as having filled all six engine control slots, perform two quantum events.
+> 船が軌道防御システムに見つかると同時に、6個のエンジンコントロールスロットがすべて埋まった場合には、2つの「量子イベント」を実行してください。
 
 <img src="../images/events.png" width="100%">
 
-# Game end
-Players immediately win the game when they have collected all eight components of the quantum computer. Players immediately lose the game when the detection rate reaches the end (X).
+# ゲームの終了
+量子コンピューターの8個の「量子部品」すべてを集めた瞬間に、プレイヤー側の勝ちです。「検出レート」が最終値（X）に到達した瞬間に、プレイヤー側の負けです。
 
-# Your first game
-Set up the game board as described in Setup. In this game, Mercurial (the blue player) will go first. Mercurial draws three cards: X, H, and H. Rubicon draws three cards: CNOT, SWAP, and X. Both ships start on <span style="color: purple"> ZERO </span>.
+# 最初のゲーム
+「ゲームの準備」の章に書かれているように「ゲーム盤」設定します。このゲームでは、マーキュリアル (青) が先行です。マーキュリアルが 3つの「エンジンカード」を引きました。「X」と「H」と「H」です。ルビコンが 3つの「エンジンカード」を引きました。「CNOT」と「SWAP」と「X」です。どちらの宇宙船も<span style="color: purple"> ZERO </span>から始まりました。
 
 <img src="../images/first1.png" width="40%">
 
-1. Mercurial plays an H to navigate to <span style="color: green"> PLUS </span>. Mercurial draws X as a replacement card.
+1. マーキュリアルが「H」を実行し、<span style="color: green"> PLUS </span>に航行しました。マーキュリアルは代わりの「エンジンカード」として「X」を引きました。
 
 <img src="../images/first2.png" width="40%">
 
-2. Rubicon plays CNOT to navigate both ships to <span style="color: #facd4d"> PHI PLUS </span>. Rubicon draws H as a replacement card. After arriving at a planet in Entanglion, Rubicon must roll the Entanglion die to evade the orbital defenses. Since the detection rate is 1, Rubicon needs to roll a 2 or higher. Rubicon rolls the Entanglion die and gets a 3, just enough to evade detection!
+2. ルビコンが「CNOT」を実行し、2機の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動しました。ルビコンは代わりの「エンジンカード」として「H」を引きました。エンタングリオンの惑星に到着したたため、ルビコンはエンタングリオンサイコロを振り、軌道防御システムを回避しなければなりません。「検出レート」は 1 なので、ルビコンは 2 以上の目を出す必要があります。ルビコンはエンタングリオンサイコロを振って 3 を出しました。索敵を回避しました!
 
 <img src="../images/first3.png" width="40%">
 <img src="../images/first_detection.png" width="40%">
 
-3. Mercurial decides to retrieve the Quantum Gates present on <span style="color: #facd4d"> PHI PLUS </span>. Mercurial rolls a 6, much higher than the detection rate of 1, and successfully retrieves the component.
+3. マーキュリアルは<span style="color: #facd4d"> PHI PLUS </span>上の「量子ゲート」部品を奪取することにしました。エンタングリオンサイコロを振り、6 が出ました。「検出レート」の 1 より大きいため、「量子ゲート」部品の取得は成功です。
 
 <img src="../images/first4.png" width="40%">
 
-4. Rubicon decides the next destination is <span style="color: #facd4d"> OMEGA TWO </span> and plays an H to navigate both ships there.
+4. ルビコンは次の目的地を<span style="color: #facd4d"> OMEGA TWO </span>に決定しました。「エンジンカード」の「H」を実行し、2機の宇宙船を移動します。
 
 <img src="../images/first5.png" width="40%">
 
-Rubicon rolls the Entanglion die and it comes up as 1. The ships have been detected, so they must retreat! Rubicon rolls a 1 on the Centarious die, so both ships jump back to <span style="color: purple"> ONE </span>. Since they were detected, the detection rate is increased by 1 and a quantum event is triggered. Rubicon draws a quantum event card – Heisenberg – which can be used on a future turn.
+ルビコンは、エンタングリオンサイコロを振り、1 が出ました。船が防御システムに見つかったため、退却です! ルビコンがセンタリウスサイコロを振り、1 が出ました。2機の宇宙船は<span style="color: purple"> ONE </span> にジャンプして戻ります。防御システムに見つかったため、「検出レート」は 1 増え、「量子イベント」が発生します。ルビコンは「量子イベントカード」の「ハイゼンベルク」カードを引きました。このイベントカードはその後の順番のどこかで使用できます。
 
 <img src="../images/first5.png" width="40%">
 <img src="../images/first_detection2.png" width="40%">
 
-Play continues until either Rubicon and Mercurial have collected all of the quantum components in Entanglion, or until the detection rate reaches the final level.
+ゲームはルビコンかマーキュリアルのどちらかがエンタングリオン内のすべての「量子部品」を集めるか、または「検出レート」が最終レベル (X) に達するまで続きます。
 
-# How Entanglion relates to quantum computing
-Entanglion models several aspects of a 2-qubit quantum computer. Specifically, the two spaceships represent two qubits, and each planet in each galaxy represents a different state of those qubits. Engine cards represent the quantum gates used to transition the qubits into different states.
+# エンタングリオンは量子コンピューターとどのように関連しているか
+エンタングリオンは 2量子ビットの量子コンピュータにおけるいくつかの特徴をモデル化しています。特に、2機の宇宙船は 2 つの量子ビットを、各銀河のそれぞれの惑星は量子ビットの異なる状態を表し、「エンジンカード」は異なる状態への遷移に使用される量子ゲートを表します。
 
-The Centarious galaxy represents the classical states of 0 and 1, written in "ket notation" as ⎢0 〉(<span style="color: purple"> ZERO </span>) and ⎢1 〉(<span style="color: purple"> ONE </span>). The Superious galaxy represents states of quantum superposition, known as ⎢+ 〉(<span style="color: green"> PLUS </span>) and ⎢- 〉(<span style="color: green"> MINUS </span>). The Entanglion galaxy represents states of entanglement. Four of the entangled states, ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>), ⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>), ⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>), and ⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>), are known as the [Bell states](https://en.wikipedia.org/wiki/Bell_state). The other entangled states, which we have labeled ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) through ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>), are additional states that are achievable through the combined operation of the X, H, SWAP, and CNOT gates.
+センタリアス銀河は 0 と 1 の古典的な状態、ケット記法での ⎢0 〉(<span style="color: purple"> ZERO </span>) と ⎢1 〉(<span style="color: purple"> ONE </span>) を表します。スーペリウス銀河は量子の重ね合わせ状態 ⎢+ 〉(<span style="color: green"> PLUS </span>) と ⎢- 〉(<span style="color: green"> MINUS </span>)、そして、エンタングリオン銀河はエンタングルメント(もつれ)を表します。4つのエンタングル状態 ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>)、⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>)、⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>)、⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>) は [ベル状態](https://en.wikipedia.org/wiki/Bell_state) として知られています。また ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) から ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>) でラベル付けしたその他のエンタングル状態は、「X」、「H」、「SWAP」、「CNOT」ゲートの組み合わせ操作を通じて実現できる追加の状態です。
 
-The requirement that both ships must move together within Entanglion is a result of the fact that for entangled states, the state of the system is more complex than a simple combination of the states of the individual qubits. This is one of the main ways in which quantum mechanics differs from classical physics.
+エンタングリオン内では 2機の宇宙船が同時に動かなかければならないというルールは、エンタングル状態での事実から来ています。システムの状態は個々の量子ビットの単純な組み合わせよりも複雑になります。これは量子力学が古典物理と異なる大きな違いの一つです。
 
-## Engine cards
-The engine cards represent _some_ of the different kinds of quantum logic gates used by quantum computers.
+## エンジンカード
+「エンジンカード」は量子コンピューターで使用される量子論理ゲートのうちの _いくつか_ を表しています。
 
 <img src="../images/engine_cards.png" width="60%">
 
-- **X**. The X gate flips the value of a qubit. It is also known as the bit flip gate.
-- **SWAP**. SWAP exchanges the values of the two qubits.
-- **CNOT**. CNOT stands for "Controlled Not." It needs two qubits to work: one qubit is designated the "target," which gets flipped if the other qubit, known as the "control," has a value of 1.
-- **H**. The Hadamard gate is used to create or collapse superposition. It is one of the most important gates in quantum computing.
+- **X**: X ゲートは量子ビットの値を反転します。bit flip ゲートとも呼ばれます。
+- **SWAP**: 2つの量子ビットの値を交換します。
+- **CNOT**: CNOT は「Controlled Not (制御 NOT)」の略です。動作には2つの量子ビットが必要で、「コントロール」量子ビットの値が 1 の場合に、「ターゲット」量子ビットを反転します。
+- **H**: Hadamard ゲート (アダマールゲート) は重ね合わせを作成したり、破壊します。量子コンピューターにおいてもっとも重要なゲートの一つです。
 
-## Quantum components
-The quantum components in Entanglion represent different physical or logical components needed to construct an actual quantum computer.
+## 量子部品
+エンタングリオンでの「量子部品」は、実際に量子コンピューターを構築する際に必要な物理コンポーネントや論理コンポーネントを表します。
 
 - **Physical Qubits**. Much like how classical computer processors are implemented via hardware transistors, quantum processors are implemented via hardware qubits. There are a [number of different ways](https://en.wikipedia.org/wiki/Qubit#Physical_representation) ways scientists are creating physical qubits, including Josephson junctions, ion traps, and quantum dots.
 - **Qubit Interconnect**. Qubits must be physically connected to each other in order to become entangled with one another.
@@ -243,16 +242,26 @@ The quantum components in Entanglion represent different physical or logical com
 - **Control Infrastructure**. Quantum computers need some way to measure the internal state of a qubit. Control infrastructure uses microwave radiation to read the state of a qubit and digitize it into a binary state (0 or 1).
 - **Magnetic Shielding**. Qubits are extremely sensitive to stray magnetic fields. Magnetic shielding ensures qubits are protected from external sources of magnetism.
 
-## Event cards
+## イベントカード
 Event cards add fun, random elements to the game. Some event cards are named after people who made significant contributions to the field of quantum physics and quantum information science, such as Werner Heisenberg and Erwrin Schrödinger. One event card is extra special, named after IBM researcher Charles Bennett, one of the founders of quantum information theory and a key contributor to the discovery of the quantum teleportation effect. Other event cards are named after quantum effects such as quantum tunneling, bit flip errors, wave function collapsing, and Einstein’s "spooky action at a distance." We encourage avid players to research these people and topics to learn more about the physics of quantum information!
 
 <img src="../images/events.png" width="100%">
 
-## Defenses, measurement, and error
+- **量子トンネル (Quantum Tunnel)**: 使用するまで保持可能。このカードを使用すると、軌道防御システム、地上防御システムを回避できる。このカードを使用しても自分の番でのアクションとは見なされない。
+- **波動関数の崩壊 (Wave Function Collapse)**: 「検出レート」を 2 下げる。
+- **ビット反転エラー(Bit Flip Error)**: 「検出レート」を 1番目の「4」にリセットする。
+- **ベネット (Bennett)**: 使用するまで保持可能。このカードを使用すると、「量子部品」を1個、別の宇宙船側にあげたり、もらえる。
+- **ハイゼンベルク (Heisenberg)**: 使用するまで保持可能。このカードを使用する場合は、エンタングリオンサイコロを振る。<span style="color: #facd4d"> OMEGA ZERO </span> から時計回りに進み、サイコロの目の数だけ惑星を進む。2機同時に進み、軌道防御システムは無視する。
+- **シュレディンガー (Shrodinger)**: 「検出レート」を 1 上げる。
+- **不気味な作用 (Spooky Action)**: 現在の宇宙船の「量子部品」を裏返しにして 1枚ランダムに選ぶ。エンタングリオンサイコロを振り、<span style="color: #facd4d"> OMEGA ZERO </span> から「量子部品」の置かれていない惑星を出た目の数だけ時計回りに数え、「量子部品」を置く。残りの「電子部品」は宇宙船に戻す。宇宙船に 1つも「量子部品」がない場合、このカードの効果はない。
+- **量子シャッフル(Quantum Shulffle)**: 「ゲームの準備」の章の「「量子イベント」を準備します。」節の指示どおりに、「量子イベントカード」をシャッフルし、1枚カードを引く。
+- **メカニクス(The Mechanic)**: 使用するまで保持可能。3枚の「エンジンカード」を引き、そのうち2枚まで実行できる。エンタングリオン内にいる場合、軌道防御システムは虫できる。未使用の「エンジンカード」は捨てる。
+
+## 防御システム、検出、エラー
 The process of encountering orbital defenses when navigating the Entanglion galaxy is akin to performing a classical measurement (also known as a Z measurement) on the quantum state. Additionally, the act of retrieving a quantum component is akin to performing an entanglement measurement, also known as a [Bell test](https://en.wikipedia.org/wiki/Bell_test_experiments). Sometimes, noise in the quantum system prevents us from seeing a reliable measurement. We call this a readout error. The effects of noise and errors are modeled via the detection rate.
 
-## Additional resources
-We recommend a few resources for learning more about quantum computing.
+## 追加情報
+量子コンピューティングについて更に学習するには以下の情報を参照してください。
 
 - [IBM Q Experience Beginner's Guide](http://ibm.biz/qx-guide) by IBM Research
 - [Q is for Quantum](http://a.co/iJbiNS8) by T. Rudolph
