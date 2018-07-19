@@ -24,13 +24,13 @@ http://ibm.biz/entanglion
 さぁ、挑戦するかい?
 
 # ゲームのゴール
-エンタングリオンは、2人プレイ用の協調型ボードゲームです。古代人が開発した量子コンピューターの再構築が最終的なゴールです。2人で協力して、量子宇宙の 3つの銀河 (センタリウス、スーペリウス、エンタングリオン) を航行し、8つの量子コンピューター部品を集めてください。部品を守っている惑星防御メカニズムからの索敵に注意してください。
+エンタングリオンは、2人プレイ用の協調型ボードゲームです。古代人が開発した量子コンピューターの再構築が最終的なゴールです。2人で協力して、量子宇宙の 3つの銀河 (センタリウス、スーペリウス、エンタングリオン) を航行し、8つの量子コンピューター部品を集めてください。部品を守っている惑星防御システムに注意してください。
 
 # ゲームのコンセプト
 エンタングリオンは、以下のような量子コンピューターの基本的な概念を体験するためにデザインされました。 
 
 - **量子ビット (Qubits)**: 量子計算におけるビルディングブロックです。
-- **重ね合わせ (Superposition)**: 量子システムは一度に複数の状態の確率的組み合わせに存在するかもしれません。
+- **重ね合わせ (Superposition)**: 量子システムは一度に複数の状態の確率的組み合わせに存在する場合があります。
 - **エンタングルメント (Entanglement)**: 一つの量子ビットが他の量子ビットの状態と関連を持ったときに起こります。
 - **測定 (Measurement)**: 量子ビットの古典的な値を観察するプロセスです。
 - **エラー (Error)**: 量子システム内のランダムノイズが量子ビットの測定値を混乱させるときに起こります。
@@ -90,7 +90,7 @@ http://ibm.biz/entanglion
 
 **CNOT**: 「CNOT」カードを使用すると、エンタングリオン銀河に入り、銀河内を航行できます。また、宇宙船がセンタリウスにいる場合には、相手の船が<span style="color: purple"> ONE </span>の位置にいる場合にのみ、宇宙船の位置を入れ換えられます。
 
-**PROBE**: 「PROBE」カードを引いたら、... 宇宙船が古代人の防御索敵システムに見つかった! エンタングリオンサイコロを振ってください。出た目が 4 より小さければ、(量子部品の効果を考慮した後) 検出レートを 1 上げてください。4 以上であれば、何もしません。「PROBE」カードを捨て、代わりのエンジンカードを引いてください。
+**PROBE**: 「PROBE」カードを引いたら、... 宇宙船が古代人の防御システムに見つかった! エンタングリオンサイコロを振ってください。出た目が 4 より小さければ、(量子部品の効果を考慮した後) 検出レートを 1 上げてください。4 以上であれば、何もしません。「PROBE」カードを捨て、代わりのエンジンカードを引いてください。
 
 > エンジンコントロールスペースでは、自分の宇宙船の線とエンジンカード上の線が揃うようにカードの向きを合わせてください。
 
@@ -101,7 +101,7 @@ http://ibm.biz/entanglion
 
 1. **航行**: エンジンコントロールスペースに「エンジンカード」を 1枚置き、銀河内を航行し、1枚「エンジンカード」を引いてください。エンジンカードは自分の宇宙船に対してのみ使用できます。
 2. **交換**: 手持ちの「エンジンカード」を 1枚捨てて、代わりを引きます。
-3. **取得**: もし「量子部品」」があれば、エンタングリオンサイコロを振り、条件により取得できます。
+3. **取得**: もし「量子部品」があれば、エンタングリオンサイコロを振り、条件により取得できます。
 4. **イベント**: 手持ちのイベントカードを実行します (手元にある場合)
 
 > パスはできません。必ず上のアクションのどれかを実行してください。
@@ -129,7 +129,7 @@ http://ibm.biz/entanglion
 <img src="../images/entering_entanglion2.png" width="40%">
 
 # 検出レート
-「検出レート」は、惑星防御システムの難易度を決定します。「検出レートトークン」は現在の「検出レート」のトラックに使用されます。プレイヤーの宇宙船が軌道防御システムに見つかるか、または相手プレイヤーが地上防御システムに見つかると「検出レート」は上がり、その後の各惑星に配置された防御システムがプレイヤーを発見しやすくなります。「検出レート」が最終レベル (X) に達すると、ゲームは終了します。
+「検出レート」は、惑星防御システムの難易度を決定します。「検出レートトークン」が現在の「検出レート」示します。プレイヤーの宇宙船が軌道防御システムに見つかるか、または相手プレイヤーが地上防御システムに見つかると「検出レート」は上がり、その後の各惑星に配置された防御システムがプレイヤーを発見しやすくなります。「検出レート」が最終レベル (X) に達すると、ゲームは終了します。
 
 > 惑星の軌道防御システム、または地上防御システムに見つかると検出レートは常に 1 増加します。
 
@@ -162,13 +162,13 @@ http://ibm.biz/entanglion
 
 <img src="../images/quantum_components.png" width="100%">
 
-「量子部品」を持った船が惑星軌道上にある場合、別チームを惑星表面に下ろして「量子部品」を取得できます。「量子部品」は軌道防御システム同様、自動化された地上防御システムに守られており、これを回避しなければなりません。
+宇宙船が「量子部品」のある惑星軌道上にある場合、相手チームを惑星表面に下ろして「量子部品」を取得できます。「量子部品」は軌道防御システム同様、自動化された地上防御システムに守られており、これを回避しなければなりません。
 
-**取得ミッションを実行するには:** エンタングリオンサイコロを振ってください。出た目が現在の「検出レート」より大きければ、「量子部品」を回収でき、「宇宙船ボード」に置けます。出た目が「検出レート」以下ならば、別チームは地上防御システムに見つかったことになります。「検証レート」を 1つ増やしてください。
+**取得ミッションを実行するには:** エンタングリオンサイコロを振ってください。出た目が現在の「検出レート」より大きければ、「量子部品」を回収でき、「宇宙船ボード」に置けます。出た目が「検出レート」以下ならば、相手チームは地上防御システムに見つかったことになります。「検証レート」を 1つ増やしてください。
 
-> 別チームが「量子部品」を取得できなくても、宇宙船は現在の惑星軌道に留まります。また次の順番でも、別の惑星に航行し軌道制御システムに出会わない限り、軌道防御システムの確認を行う必要はありません。
+> 相手チームが「量子部品」を取得できない場合も、宇宙船は現在の惑星軌道に留まります。また次の順番でも、別の惑星に航行し軌道制御システムに出会わない限り、軌道防御システムの確認を行う必要はありません。
 
-> 「量子トンネル」イベントカードを使用すると、地上防御システムを回避できます。自分の順番でこのイベントカードを実行すれば、取得ミッションは成功です。別チームが地上防御システムに見つかったかどうかをの判定にエンタングリオンサイコロを振る必要ありません。自分の船に「量子部品」を積んでください。
+> 「量子トンネル」イベントカードを使用すると、地上防御システムを回避できます。自分の順番でこのイベントカードを実行すれば、取得ミッションは成功です。相手チームが地上防御システムに見つかったかどうかの判定にエンタングリオンサイコロを振る必要はありません。自分の船に「量子部品」を積んでください。
 
 # 量子イベント
 量子エンジンは、時には予測できない動きをします! 6個のエンジンコントロールスロットがすべて埋まった場合、自分の番の最後で「量子イベント」を実行してください。また、軌道防御システムに見つかった場合も、「量子イベント」を実行してください。
@@ -193,7 +193,7 @@ http://ibm.biz/entanglion
 
 <img src="../images/first2.png" width="40%">
 
-2. ルビコンが「CNOT」を実行し、2機の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動しました。ルビコンは代わりの「エンジンカード」として「H」を引きました。エンタングリオンの惑星に到着したたため、ルビコンはエンタングリオンサイコロを振り、軌道防御システムを回避しなければなりません。「検出レート」は 1 なので、ルビコンは 2 以上の目を出す必要があります。ルビコンはエンタングリオンサイコロを振って 3 を出しました。索敵を回避しました!
+2. ルビコンが「CNOT」を実行し、2機の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動しました。ルビコンは代わりの「エンジンカード」として「H」を引きました。エンタングリオンの惑星に到着したたため、ルビコンはエンタングリオンサイコロを振り、軌道防御システムを回避しなければなりません。「検出レート」は 1 なので、ルビコンは 2 以上の目を出す必要があります。ルビコンはエンタングリオンサイコロを振って 3 を出しました。防御システムを回避しました!
 
 <img src="../images/first3.png" width="40%">
 <img src="../images/first_detection.png" width="40%">
@@ -216,7 +216,7 @@ http://ibm.biz/entanglion
 # エンタングリオンは量子コンピューターとどのように関連しているか
 エンタングリオンは 2量子ビットの量子コンピュータにおけるいくつかの特徴をモデル化しています。特に、2機の宇宙船は 2 つの量子ビットを、各銀河のそれぞれの惑星は量子ビットの異なる状態を表し、「エンジンカード」は異なる状態への遷移に使用される量子ゲートを表します。
 
-センタリアス銀河は 0 と 1 の古典的な状態、ケット記法での ⎢0 〉(<span style="color: purple"> ZERO </span>) と ⎢1 〉(<span style="color: purple"> ONE </span>) を表します。スーペリウス銀河は量子の重ね合わせ状態 ⎢+ 〉(<span style="color: green"> PLUS </span>) と ⎢- 〉(<span style="color: green"> MINUS </span>)、そして、エンタングリオン銀河はエンタングルメント(もつれ)を表します。4つのエンタングル状態 ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>)、⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>)、⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>)、⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>) は [ベル状態](https://en.wikipedia.org/wiki/Bell_state) として知られています。また ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) から ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>) でラベル付けしたその他のエンタングル状態は、「X」、「H」、「SWAP」、「CNOT」ゲートの組み合わせ操作を通じて実現できる追加の状態です。
+センタリアス銀河は 0 と 1 の古典的な状態、ケット記法での ⎢0 〉(<span style="color: purple"> ZERO </span>) と ⎢1 〉(<span style="color: purple"> ONE </span>) を表します。スーペリウス銀河は量子の重ね合わせ状態 ⎢+ 〉(<span style="color: green"> PLUS </span>) と ⎢- 〉(<span style="color: green"> MINUS </span>)、そして、エンタングリオン銀河はエンタングルメント(もつれ)を表します。4つのエンタングル状態 ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>)、⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>)、⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>)、⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>) は [ベル状態](https://en.wikipedia.org/wiki/Bell_state) として知られています。また ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) から ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>) でラベル付けしたその他のエンタングル状態は、「X」、「H」、「SWAP」、「CNOT」ゲートの組み合わせ操作を通じて実現できる状態です。
 
 エンタングリオン内では 2機の宇宙船が同時に動かなかければならないというルールは、エンタングル状態での事実から来ています。システムの状態は個々の量子ビットの単純な組み合わせよりも複雑になります。これは量子力学が古典物理と異なる大きな違いの一つです。
 
@@ -233,32 +233,32 @@ http://ibm.biz/entanglion
 ## 量子部品
 エンタングリオンでの「量子部品」は、実際に量子コンピューターを構築する際に必要な物理コンポーネントや論理コンポーネントを表します。
 
-- **Physical Qubits**. Much like how classical computer processors are implemented via hardware transistors, quantum processors are implemented via hardware qubits. There are a [number of different ways](https://en.wikipedia.org/wiki/Qubit#Physical_representation) ways scientists are creating physical qubits, including Josephson junctions, ion traps, and quantum dots.
-- **Qubit Interconnect**. Qubits must be physically connected to each other in order to become entangled with one another.
-- **Dilution Regrigerator**. Physical qubits must be kept at very cold temperatures – colder even than outer space – in order to maintain their coherence. Dilution refrigerators are able to cool physical qubits to temperatures as low as 2 millikelvin.
-- **Quantum Gates**. In classical computing, logical gates such as AND, OR, NOT, and NAND are combined to create higher-order computation. In quantum computing, quantum gates such as X, CNOT, SWAP, and H are used for computation.
-- **Quantum Programming**. In order to improve the productivity of quantum programmers, higher-level quantum programming languages are needed. For example, [IBM OpenQASM](https://github.com/IBM/qiskit-openqasm) allows you to program a quantum computer with an assembly-style language, and [IBM QISKit](https://qiskit.org) allows you to program a quantum computer in Python.
-- **Quantum Error Correction**. Physical qubits experience noise that may cause errors to occur during measurement. [Quantum error correction](https://en.wikipedia.org/wiki/Quantum_error_correction) is used to correct for these errors. The key insight of quantum error correction is to use multiple physical qubits to simulate one logical qubit.
-- **Control Infrastructure**. Quantum computers need some way to measure the internal state of a qubit. Control infrastructure uses microwave radiation to read the state of a qubit and digitize it into a binary state (0 or 1).
-- **Magnetic Shielding**. Qubits are extremely sensitive to stray magnetic fields. Magnetic shielding ensures qubits are protected from external sources of magnetism.
+- **物理量子ビット (Physical Qubits)**: 古典コンピューターのプロセッサーがハードウエアトランジスタで実装されているように、量子コンピューターのプロセッサーもハードウエア量子ビットで実装される。科学者の創造する物理量子ビットには [多くの方法 ](https://en.wikipedia.org/wiki/Qubit#Physical_representation) がある。例: ジョセフソン接合、イオントラップ、量子ドット
+- **量子インターコネクト (Qubit Interconnect)**: 量子ビットが他の量子ビットとエンタングルになるには、物理的にお互いが接続する必要がある。
+- **希釈冷凍法 (Dilution Regrigerator)**: 物理量子ビットがコヒーレンスを維持するには、外宇宙の温度よりも低い超低温で保持されなければならない。希釈冷凍法は物理量子ビットを2ミリケルビンの低さまで冷やすことができる。
+- **量子ゲート (Quantum Gates)**: 古典コンピューターでは「AND」「OR」「NOT」「NAND」などの論理ゲートを組み合わせて高次計算を実現した。量子コンピューターでは「X」「CNOT」「SWAP」「H」などの量子ゲートを使用して計算する。
+- **量子プログラミング (Quantum Programming)**: 量子プログラマーの生産性を向上するには、高次レベルの量子プログラミング言語が必要である。たとえば [IBM OpenQASM](https://github.com/IBM/qiskit-openqasm) ではアセンブラに似た言語で量子コンピュータをプログラミングできる。[IBM QISKit](https://qiskit.org) では Python でプログラミングできる。
+- **量子エラー訂正 (Quantum Error Correction)**: 物理量子ビットの経験ノイズは測定中にエラーを引き起こす可能性がある。このエラー訂正に [量子エラー訂正](https://en.wikipedia.org/wiki/Quantum_error_correction) を使用する。量子エラー訂正の鍵となる考え方は 1つの論理物理ビットのシミュレーションに複数の物理量子ビットを使用する点である。
+- **管理インフラストラクチャー (Control Infrastructure)**: 量子コンピューターでは量子ビットの内部状態を何らかの方法で測定しなければならない。管理インフラストラクチャーではマイクロ波放射を使用して量子ビットの状態を読み出し、「0」か「1」のバイナリ状態にデジタル化する。
+- **磁気シールド (Magnetic Shielding)**: 量子ビットは浮遊磁界に極めて敏感である。磁気シールドは外部の磁気発生源から量子ビットを保護する。
 
 ## イベントカード
-Event cards add fun, random elements to the game. Some event cards are named after people who made significant contributions to the field of quantum physics and quantum information science, such as Werner Heisenberg and Erwrin Schrödinger. One event card is extra special, named after IBM researcher Charles Bennett, one of the founders of quantum information theory and a key contributor to the discovery of the quantum teleportation effect. Other event cards are named after quantum effects such as quantum tunneling, bit flip errors, wave function collapsing, and Einstein’s "spooky action at a distance." We encourage avid players to research these people and topics to learn more about the physics of quantum information!
+「イベントカード」はゲームに楽しさとランダム性を与えます。「イベントカード」 の名前は量子力学や量子情報科学に多大な貢献をした人物から取られています。例: ヴェルナー・ハイゼンベルク、エルヴィン・シュレーディンガー。特に重要な 1枚が IBM の研究員チャールズ・ベネットです。彼は量子力学理論創立者の一人であり、量子テレポーテーション効果発見の主要な貢献者です。その他の「イベントカード」には量子効果の名前がついています。例: 量子トンネル、ビット反転エラー、波動関数の崩壊、アインシュタインの「不気味な遠隔作用」。熱心なプレイヤーの皆さんは是非、上に挙げた人物やトピックスについて調べ、量子情報物理をさらに学習してください!
 
 <img src="../images/events.png" width="100%">
 
-- **量子トンネル (Quantum Tunnel)**: 使用するまで保持可能。このカードを使用すると、軌道防御システム、地上防御システムを回避できる。このカードを使用しても自分の番でのアクションとは見なされない。
+- **量子トンネル (Quantum Tunnel)**: 使用するまで保持可能。このカードを使用すると、軌道防御システム、地上防御システムを回避できる。このカードを使用しても自分の番でのアクションとはみなされない。
 - **波動関数の崩壊 (Wave Function Collapse)**: 「検出レート」を 2 下げる。
-- **ビット反転エラー(Bit Flip Error)**: 「検出レート」を 1番目の「4」にリセットする。
+- **ビット反転エラー (Bit Flip Error)**: 「検出レート」を 1番目の「4」にリセットする。
 - **ベネット (Bennett)**: 使用するまで保持可能。このカードを使用すると、「量子部品」を1個、別の宇宙船側にあげたり、もらえる。
 - **ハイゼンベルク (Heisenberg)**: 使用するまで保持可能。このカードを使用する場合は、エンタングリオンサイコロを振る。<span style="color: #facd4d"> OMEGA ZERO </span> から時計回りに進み、サイコロの目の数だけ惑星を進む。2機同時に進み、軌道防御システムは無視する。
 - **シュレディンガー (Shrodinger)**: 「検出レート」を 1 上げる。
 - **不気味な作用 (Spooky Action)**: 現在の宇宙船の「量子部品」を裏返しにして 1枚ランダムに選ぶ。エンタングリオンサイコロを振り、<span style="color: #facd4d"> OMEGA ZERO </span> から「量子部品」の置かれていない惑星を出た目の数だけ時計回りに数え、「量子部品」を置く。残りの「電子部品」は宇宙船に戻す。宇宙船に 1つも「量子部品」がない場合、このカードの効果はない。
-- **量子シャッフル(Quantum Shulffle)**: 「ゲームの準備」の章の「「量子イベント」を準備します。」節の指示どおりに、「量子イベントカード」をシャッフルし、1枚カードを引く。
-- **メカニクス(The Mechanic)**: 使用するまで保持可能。3枚の「エンジンカード」を引き、そのうち2枚まで実行できる。エンタングリオン内にいる場合、軌道防御システムは虫できる。未使用の「エンジンカード」は捨てる。
+- **量子シャッフル (Quantum Shulffle)**: 「ゲームの準備」の章の「「量子イベント」を準備します。」節の指示どおりに、「量子イベントカード」をシャッフルし、1枚カードを引く。
+- **メカニクス (The Mechanic)**: 使用するまで保持可能。3枚の「エンジンカード」を引き、そのうち2枚まで実行できる。エンタングリオン内にいる場合、軌道防御システムは無視できる。未使用の「エンジンカード」は捨てる。
 
 ## 防御システム、検出、エラー
-The process of encountering orbital defenses when navigating the Entanglion galaxy is akin to performing a classical measurement (also known as a Z measurement) on the quantum state. Additionally, the act of retrieving a quantum component is akin to performing an entanglement measurement, also known as a [Bell test](https://en.wikipedia.org/wiki/Bell_test_experiments). Sometimes, noise in the quantum system prevents us from seeing a reliable measurement. We call this a readout error. The effects of noise and errors are modeled via the detection rate.
+エンタングリオン銀河を航行中、軌道防御システムに遭遇するプロセスは、Z測定とも呼ばれる、古典的な量子状態の測定に相当します。さらに「量子部品」の取得はエンタングルメント測定の実行に相当します。これは [ベルテスト](https://en.wikipedia.org/wiki/Bell_test_experiments) としても知られています。時折、量子システム内のノイズが、信頼できる測定の観察を邪魔します。これを「読み出しエラー」と呼びます。ノイズの効果とエラーは「検出レート」としてモデル化されています。
 
 ## 追加情報
 量子コンピューティングについて更に学習するには以下の情報を参照してください。
