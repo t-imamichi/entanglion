@@ -1,10 +1,10 @@
-# Quantum components
+# 量子部品
 
-- **Physical Qubits**. When detected by orbital defenses, you may place each ship on any planet of your choosing in Centarious.
-- **Qubit Interconnect**. At the start of your turn, you may exchange one engine card with the other player if your spaceships are orbiting the same planet. This exchange is not considered an action.
-- **Dilution Refrigerator**. The extra mass of the Dilution Refrigerator puts a strain on your ship's engines. The number of engine cards you may keep in your hand is reduced to two. Discard one engine card upon retrieving the Dilution Refrigerator.
-- **Quantum Gates**. When exchanging an engine card, draw two replacement cards, add one to your hand, and discard the other one.
-- **Quantum Programming**. When navigating to a planet in Entanglion that does not contain a quantum component, your ships automatically bypass the orbital defenses.
-- **Quantum Error Correction**. Add one to your roll when rolling the Entanglion die.
-- **Control Infrastructure**. The microwave radiation emitted by the control infrastructure makes it easier for your ship to be detected. Subtract one from your roll when rolling the Entanglion die.
-- **Magnetic Shielding**. You may re-roll the Entanglion die one more time whenever rolling the die. Ignore the result of the first roll.
+- **物理量子ビット (Physical Qubits)**: 軌道防御システムに見つかった際、2機の宇宙船をそれぞれ、センタリウス内の好きな惑星に移動できる。
+- **量子インターコネクト (Qubit Interconnect)**: 順番が来たときに、もし 2機の宇宙船が同じ惑星の軌道上にいれば、1枚の「エンジンカード」を相手プレイヤーと交換できる。この交換はアクションと見なされない。
+- **希釈冷凍装置 (Dilution Refrigerator)**: 希釈冷凍装置の余分な質量が宇宙船のエンジンに負荷を与えたため、手元に保持可能なエンジンカードの枚数が2枚に制限される。希釈冷凍装置の取得分として1枚のエンジンカードを捨てる。
+- **量子ゲート (Quantum Gates)**: エンジンカードを交換する際、2枚のカードを引ける。好きな方を手元に残し、他方は捨てる。
+- **量子プログラミング (Quantum Programming)**: エンタングリオン内の惑星へ航行する際、惑星に量子部品がなければ、自動的に軌道防御システムを回避する。
+- **量子エラー訂正 (Quantum Error Correction)**: エンタングリオンサイコロを振るときは、出た目に 1 足す
+- **管理インフラストラクチャー (Control Infrastructure)**: 管理インフラストラクチャーから放出されるマイクロ波放射により宇宙船が見つかりやすくなった。エンタングリオンサイコロを振るときは、出た目から 1 引く。
+- **磁気シールド (Magnetic Shielding)**: エンタングリオンサイコロを振る際に、もう1回振ってもよい。このとき最初に出た目は無視する。

@@ -1,11 +1,20 @@
-# Event Cards
+# イベントカード
 
-- **Bennett**. Keep this card in your hand until you wish to play it. When you play this card, give one quantum component to or receive one quantum component from the other spaceship. _With a little work, quantum state can be deconstructed in one place and reconstructed in another._
-- **Bit Flip Error**. Reset the detection rate to the first "4". _You notice that your quantum engines are glowing green and blue. A readout on your console shows they have recalibrated themselves._
-- **Heisenberg**. Keep this card in your hand until you wish to play it. When you play this card, roll the Entanglion die. Proceeding in clockwise order from OMEGA ZERO, count the indicated number of planets. Move both ships to the selected planet, ignoring orbital defenses. _A tall man wearing a pork pie hat bumps into you in the spaceport and hands you a small blue card. "Try this, you'll love it!" he says before running off._
-- **Quantum Shuffle**. Reshuffle the quantum event card stack as performed in Game Setup and draw another event card. _Sometimes, things that should happen, don't._
-- **Quantum Tunnel**. Keep this card in your hand until you wish to play it. Play this card to bypass orbital or ground defenses during your turn. This card does not count as your turn action. _Walking through the spaceport, a stranger bumps into you and hands you a strange device. "I know what you're doing," she says. "It's dangerous to go alone. Take this!"_
-- **Schrödinger**. Increase the detection rate by one. _Sometimes the cat is alive, and sometimes it is not. The only way to tell is by looking._
-- **Spooky Action**. Place the quantum components from your ship face down and select one at random. Roll the Entanglion die, count the indicated number of unoccupied planets from OMEGA ZERO, and place the component on that planet. Return the remaining components to your ship. This card has no effect if your ship has no quantum components. _The navigation system of your ship calls out, "A quantum disturbance has been detected. Please inspect your engines." Upon inspection, you notice a quantum component is missing!_
-- **The Mechanic**. Keep this card in your hand until you wish to play it. When you play this card, set your hand aside, draw three engine cards, and play up to two of them. Bypass any orbital defenses present in Entanglion. Discard the unplayed engine card. _You meet a quantum mechanic in the spaceport who wishes to join your crew!_
-- **Wave Function Collapse**. Reduce the detection rate by two. _You hear a loud crackling noise and your ship goes black in a complete power loss. When power is restored, a readout on your console shows the efficiency of your quantum engines has increased._
+- **ベネット (Bennett)**: 使用するまで保持可能。このカードを使用して、別の宇宙船側に「量子部品」を1個あげたり、逆に別の宇宙船側から「量子部品」を1個もらえる。<br />
+_わずかかな力でも、量子状態は、ある場所では壊れ、別のある場所では再構築される。_
+- **ビット反転エラー (Bit Flip Error)**: 「検出レート」を 1番目の「4」にリセットする。<br />
+_量子エンジンが緑と青に光り輝いている。コンソールの出力によると、エンジン自身が自己再調整を行ったらしい。_
+- **ハイゼンベルク (Heisenberg)**: 使用するまで保持可能。このカードを使用する場合は、エンタングリオンサイコロを振る。<span style="color: #facd4d"> OMEGA ZERO </span> から時計回りに進み、サイコロの目の数だけ惑星を進む。2機同時に進み、軌道防御システムは無視する。<br />
+_宇宙港でポークパイハットをかぶった長身の男がぶつかってきて、小さな青いカードを手渡した。「試してみな。気にいるぜ」。男はそう言うと走り去った。_
+- **量子シャッフル (Quantum Shulffle)**: 「ゲームの準備」の章の「「量子イベント」を準備します。」節の指示どおりに、「量子イベントカード」をシャッフルし、1枚カードを引く。<br />
+_起こるべき事象が、ときどき、起こらない。_
+- **量子トンネル (Quantum Tunnel)**: 使用するまで保持可能。このカードを使用すると、軌道防御システム、地上防御システムを回避できる。このカードを使用しても自分の番でのアクションとはみなされない。<br />
+_宇宙港を歩いていると、見知らぬ女がぶつかってきて奇妙なデバイスを手渡した。「あなたが何をしているか知ってる」彼女は言った。「一人は危険だから、これを持っていって!」_
+- **シュレディンガー (Shrodinger)**: 「検出レート」を 1 上げる。<br />
+ _ときどき、猫は生きていて、ときどき、猫は死んでいる。それを確実に言うただ一つの方法は、観察すること。_
+- **不気味な作用 (Spooky Action)**: 現在の宇宙船の「量子部品」を裏返しにして 1枚ランダムに選ぶ。エンタングリオンサイコロを振り、<span style="color: #facd4d"> OMEGA ZERO </span> から「量子部品」の置かれていない惑星を出た目の数だけ時計回りに数え、「量子部品」を置く。残りの「電子部品」は宇宙船に戻す。宇宙船に 1つも「量子部品」がない場合、このカードの効果はない。<br >
+_宇宙船の航行システムに呼び出された。「量子の乱れが検出されました。量子エンジンを調べてください」だとか。調べてみると、量子部品が消えていた!_
+- **メカニクス (The Mechanic)**: 使用するまで保持可能。3枚の「エンジンカード」を引き、そのうち2枚まで実行できる。エンタングリオン内にいる場合、軌道防御システムは無視できる。未使用の「エンジンカード」は捨てる。<br />
+_宇宙港でクルー希望の量子メカニックと出会った!_
+- **波動関数の崩壊 (Wave Function Collapse)**: 「検出レート」を 2 下げる。<br />
+_大きなバチッという音とともに宇宙船のパワーが完全に消え、船内は真っ暗になった。パワーが戻った後、コンソールを確認すると、量子エンジンの性能が向上していた。_
