@@ -12,13 +12,13 @@ http://ibm.biz/entanglion
 ゲームの正式なルールは[README](README.md) を、背景は[BackStory](Backstory.md)を参照してください。
 
 # ゲームのゴール
-エンタングリオンは、2人プレイ用の協調型ボードゲームです。古代人が開発した量子コンピューターの再構築が最終的なゴールです。2人で協力して、量子宇宙の3つの銀河 (センタリウス、スーペリウス、エンタングリオン) を航行し、8つの量子コンピューター部品を集めてください。部品を守っている惑星防御メカニズムからの索敵に注意してください。ゲーム終了時に2人の点数が決まります。他のプレイヤーのペアと点数を競い合いましょう。
+エンタングリオンは、2人プレイ用の協調型ボードゲームです。古代人が開発した量子コンピューターの再構築が最終的なゴールです。2人で協力して、量子宇宙の3つの銀河 (センタリウス、スーペリウス、エンタングリオン) を航行し、8つの量子コンピューター部品を集めてください。部品を守っている惑星防御システムに注意してください。ゲーム終了時に2人の点数が決まります。他のプレイヤーのペアと点数を競い合いましょう。
 
 # ゲームのコンセプト
 エンタングリオンは、以下のような量子コンピューターの基本的な概念を体験するためにデザインされました。
 
 - **量子ビット (Qubits)**: 量子計算におけるビルディングブロックです。
-- **重ね合わせ (Superposition)**: 量子システムは一度に複数の状態の確率的組み合わせに存在するかもしれません。
+- **重ね合わせ (Superposition)**: 量子システムは一度に複数の状態の確率的組み合わせに存在する場合があります。
 - **エンタングルメント (Entanglement)**: 一つの量子ビットが他の量子ビットの状態と関連を持ったときに起こります。
 - **測定 (Measurement)**: 量子ビットの古典的な値を観察するプロセスです。
 - **エラー (Error)**: 量子システム内のランダムノイズが量子ビットの測定値を混乱させるときに起こります。
@@ -132,7 +132,7 @@ http://ibm.biz/entanglion
 
 <img src="../images/quantum_components.png" width="100%">
 
-「量子部品」を持った船が惑星軌道上にある場合、別チームを惑星表面に下ろして「量子部品」を取得できます。「量子部品」は軌道防御システム同様、自動化された地上防御システムに守られており、これを回避しなければなりません。
+宇宙船が「量子部品」のある惑星軌道上にある場合、相手チームを惑星表面に下ろして「量子部品」を取得できます。「量子部品」は軌道防御システム同様、自動化された地上防御システムに守られており、これを回避しなければなりません。
 
 **取得ミッションを実行するには:** エンタングリオンサイコロを振ってください。出た目が現在の「検出レート」より大きければ、「量子部品」を回収でき、「宇宙船ボード」に置けます。出た目が「検出レート」以下ならば、別チームは地上防御システムに見つかったことになります。センタリウスサイコロを振り、両方の宇宙船を示された惑星に移動します。両方一緒にジャンプします。
 
@@ -156,7 +156,7 @@ http://ibm.biz/entanglion
 
 <img src="../images/first2.png" width="40%">
 
-2. ルビコンが「CNOT」を実行し、2機の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動しました。ルビコンは代わりの「エンジンカード」として「H」を引きました。エンタングリオンの惑星に到着したたため、ルビコンはエンタングリオンサイコロを振り、軌道防御システムを回避しなければなりません。「検出レート」は 1 なので、ルビコンは 2 以上の目を出す必要があります。ルビコンはエンタングリオンサイコロを振って 3 を出しました。索敵を回避しました!
+2. ルビコンが「CNOT」を実行し、2機の宇宙船は<span style="color: #facd4d"> PHI PLUS </span>に移動しました。ルビコンは代わりの「エンジンカード」として「H」を引きました。エンタングリオンの惑星に到着したたため、ルビコンはエンタングリオンサイコロを振り、軌道防御システムを回避しなければなりません。「検出レート」は 1 なので、ルビコンは 2 以上の目を出す必要があります。ルビコンはエンタングリオンサイコロを振って 3 を出しました。防御システムを回避しました!
 
 <img src="../images/first3.png" width="40%">
 <img src="../images/first_detection.png" width="40%">
@@ -179,7 +179,7 @@ http://ibm.biz/entanglion
 # エンタングリオンは量子コンピューターとどのように関連しているか
 エンタングリオンは 2量子ビットの量子コンピュータにおけるいくつかの特徴をモデル化しています。特に、2機の宇宙船は 2 つの量子ビットを、各銀河のそれぞれの惑星は量子ビットの異なる状態を表し、「エンジンカード」は異なる状態への遷移に使用される量子ゲートを表します。
 
-センタリアス銀河は 0 と 1 の古典的な状態、ケット記法での ⎢0 〉(<span style="color: purple"> ZERO </span>) と ⎢1 〉(<span style="color: purple"> ONE </span>) を表します。スーペリウス銀河は量子の重ね合わせ状態 ⎢+ 〉(<span style="color: green"> PLUS </span>) と ⎢- 〉(<span style="color: green"> MINUS </span>)、そして、エンタングリオン銀河はエンタングルメント(もつれ)を表します。4つのエンタングル状態 ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>)、⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>)、⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>)、⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>) は [ベル状態](https://en.wikipedia.org/wiki/Bell_state) として知られています。また ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) から ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>) でラベル付けしたその他のエンタングル状態は、「X」、「H」、「SWAP」、「CNOT」ゲートの組み合わせ操作を通じて実現できる追加の状態です。
+センタリアス銀河は 0 と 1 の古典的な状態、ケット記法での ⎢0 〉(<span style="color: purple"> ZERO </span>) と ⎢1 〉(<span style="color: purple"> ONE </span>) を表します。スーペリウス銀河は量子の重ね合わせ状態 ⎢+ 〉(<span style="color: green"> PLUS </span>) と ⎢- 〉(<span style="color: green"> MINUS </span>)、そして、エンタングリオン銀河はエンタングルメント(もつれ)を表します。4つのエンタングル状態 ⎢Ψ+ 〉(<span style="color: #facd4d"> PSI PLUS </span>)、⎢Ψ- 〉(<span style="color: #facd4d"> PSI MINUS </span>)、⎢Φ+ 〉(<span style="color: #facd4d"> PHI PLUS </span>)、⎢Φ- 〉(<span style="color: #facd4d"> PHI MINUS </span>) は [ベル状態](https://en.wikipedia.org/wiki/Bell_state) として知られています。また ⎢ω0 〉(<span style="color: #facd4d"> OMEGA ZERO </span>) から ⎢ω3 〉(<span style="color: #facd4d"> OMEGA THREE </span>) でラベル付けしたその他のエンタングル状態は、「X」、「H」、「SWAP」、「CNOT」ゲートの組み合わせ操作を通じて実現できる状態です。
 
 エンタングリオン内では 2機の宇宙船が同時に動かなかければならないというルールは、エンタングル状態での事実から来ています。システムの状態は個々の量子ビットの単純な組み合わせよりも複雑になります。これは量子力学が古典物理と異なる大きな違いの一つです。
 
@@ -201,4 +201,4 @@ http://ibm.biz/entanglion
 簡易版ルールでは「イベントカード」を使用しません。
 
 ## 防御システム、検出、エラー
-The process of encountering orbital defenses when navigating the Entanglion galaxy is akin to performing a classical measurement (also known as a Z measurement) on the quantum state. Additionally, the act of retrieving a quantum component is akin to performing an entanglement measurement, also known as a [Bell test](https://en.wikipedia.org/wiki/Bell_test_experiments). Sometimes, noise in the quantum system prevents us from seeing a reliable measurement. We call this a readout error. The effects of noise and errors are modeled via the detection rate.
+エンタングリオン銀河を航行中、軌道防御システムに遭遇するプロセスは、Z測定とも呼ばれる、古典的な量子状態の測定に相当します。さらに「量子部品」の取得はエンタングルメント測定の実行に相当します。これは [ベルテスト](https://en.wikipedia.org/wiki/Bell_test_experiments) としても知られています。時折、量子システム内のノイズが、信頼できる測定の観察を邪魔します。これを「読み出しエラー」と呼びます。ノイズの効果とエラーは「検出レート」としてモデル化されています。

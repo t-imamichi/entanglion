@@ -1,16 +1,16 @@
-# Errata
-This page clarifies rules or game mechanics that may be unclear from their descriptions in the distributed game materials.
+# 修正情報
+ゲーム盤やカードに印刷されたルールやゲーム構成の不明瞭な部分を補足します。
 
-> Got a question? Please [open an issue](../../../issues) and let us know!
+> 質問があれば [issue を上げ](../../../issues)、知らせてください!
 
-## What order should I count planets in when Spooky Action is played?
-Count in the same fashion as the Heisenberg card: begin at OMEGA ZERO and count in a clockwise fashion. A die roll of 1 corresponds to OMEGA ONE (one planet away), and a die roll of 8 corresponds to OMEGA ZERO.
+## 「不気味な作用」イベントカードでは、惑星をどの順番で数えますか?
+「ハイゼンベルク」イベントカードと同じように数えてください。OMEGA ZERO から始めて時計回りに進みます。エンタングリオンサイコロで 1 が出れば、ひとつ先の OMEGA ONE に進みます。8 が出れば OMEGA ZERO に進みます。
 
-## What happens when PROBE is drawn while playing The Mechanic?
-The PROBE takes effect instantly. Perform the defense check to see if your ships evaded the Entanglion probe, and remember that you need to roll a 4 or greater after accounting for the effects of your quantum components. Then, after resolving the PROBE, draw a replacement engine card and continue performing the actions of The Mechanic.
+## 「メカニクス」イベントカードを実行中に「PROBE」エンジンカードを引いたらどうしますか?
+「PROBE」エンジンカードはすぐに動作します。宇宙船がエンタングリオンの防御システムを回避したかどうかを調べるため、「量子部品」の効果を考慮した後、エンタングリオンサイコロを振ってください。回避には 4 以上を出す必要があります。「PROBE」エンジンカードの実行後は、代わりのエンジンカードを引き、以後は「メカニクス」イベントカードの実行を続けてください。
 
-## When our ships are on PSI PLUS, PSI MINUS, PHI PLUS, or PHI MINUS, and a CNOT is played, where do the ships go?
-When your ships are on one of the plaents listed above (known as the Bell States in quantum parlence) and a CNOT is played, the ship on which the CNOT was played returns to Centarious and the other ship returns to Superious. For example, if both ships are on PHI PLUS and a CNOT is played on Mercurial (the blue ship), Mercurial will go to ZERO and Rubicon will go to PLUS.
+## 宇宙船が PSI PLUS、PSI MINUS、PHI PLUS、PHI MINUS にある場合に CNOT を出したら、どこに移動しますか?
+宇宙船が上に挙げた惑星のどれか (量子の言葉でいう「ベル状態」) にあり、ここで CNOT が出ると、CNOT を出した側の宇宙船はセンタリウスに、相手側の宇宙船はスーペリウスに戻ります。たとえば両方の宇宙船が PHI PLUS にあり、マーキュリアル側 (青い宇宙船側) が CNOT を出すと、マーキュリアルは ZERO に移動し、ルビコンは PLUS に移動します。
 
-## How many cards can I play with The Mechanic?
-The card text says "play up to two of them," which means you can play zero, one, or two cards. The instruction to "Discard the unplayed engine card" should read "Discard the unplayed engine card(s)".
+## 「メカニクス」イベントカードでは、何枚のカードを実行できますか?
+カードには「play up to two of them (2枚まで実行)」とありますが、これは 0枚、または 1枚、または 2枚実行できるという意味です。「Discard the unplayed engine card(未使用のカードは捨てる)」は、正確には「未使用の1枚、または複数のカードは捨てる」の意味です。
