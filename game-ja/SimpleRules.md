@@ -177,7 +177,6 @@ http://ibm.biz/entanglion
 6. マーキュリアルは<span style="color: #facd4d"> OMEGA TWO </span>の量子部品を奪取することにしました。しかし、エンタングリオンサイコロを振り、1 が出ました。船が防御システムに見つかったため、退却です! マーキュリアルがセンタリアスサイコロを振り、1 が出ました。2機の宇宙船は<span style="color: purple"> ONE </span> にジャンプして戻ります。
 
 <img src="../images/first5.png" width="40%">
-<img src="../images/first_detection2.png" width="40%">
 
 ゲームはルビコンとマーキュリアルが共同でエンタングリオン内の全ての「量子部品」を集めるか、またはエンジンコントローラスロットが規定の回数一杯なるまで続きます。
 
